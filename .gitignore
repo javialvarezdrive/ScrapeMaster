@@ -1,11 +1,29 @@
+# Entornos virtuales
+venv/
+Lib/
+Lib/site-packages
+
+# Archivos de entorno
 .env
+
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+
+# Archivos específicos de la aplicación (según los nombres que has listado)
 app2.py
 getHTMLStructure.py
 RemoveURL.py
 testouput.py
 URLToMarkdown.py
-__pycache__/
-*.py[cod]
-venv/
-.env
-Lib/
+
+# Archivos de Selenium/Chromedriver
+chromedriver-win64/
+chromedriver.exe
+
+# Configuraciones de Jupyter (si son innecesarias)
+etc/jupyter/nbconfig/notebook.d/
+share/jupyter/nbextensions/pydeck/
+
+# Archivos de configuración o temporales adicionales
+pyvenv.cfg
