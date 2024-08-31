@@ -4,3 +4,8 @@ getHTMLStructure.py
 RemoveURL.py
 testouput.py
 URLToMarkdown.py
+__pycache__/
+*.py[cod]
+venv/
+.env
+Lib/
